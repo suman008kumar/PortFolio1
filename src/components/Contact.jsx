@@ -19,7 +19,7 @@ function Contact() {
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/ajjjwyda", userInfo);
+      await axios.post("https://getform.io/f/bgddklxa", userInfo);
       toast.success("Your message has been sent");
     } catch (error) {
       console.log(error);
